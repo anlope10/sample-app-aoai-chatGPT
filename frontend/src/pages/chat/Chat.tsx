@@ -586,7 +586,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Puedes comenzar a chatear</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Este chatbot está diseñado para contestar preguntas sobre sistemas informaticos</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>SapienSys está diseñado para contestar preguntas sobre sistemas informaticos</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
